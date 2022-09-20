@@ -1,0 +1,59 @@
+/* Initialize data here*/
+/* Code starts here */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.main-section {
+  width: 100vw;
+  height: 100vh;
+  background-color: white;
+}
+.main-section .header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  position: relative;
+  top: 1.5rem;
+}
+.main-section .header .changetheme {
+  position: relative;
+  right: 5.5rem;
+  width: 120px;
+  height: 34px;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 8px;
+  font-family: "Share Tech Mono";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.3s;
+}
+.main-section .header .changetheme:hover {
+  background-color: black;
+  color: white;
+}
+.main-section .main {
+  width: 100vw;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main-section .main .clock {
+  width: 350px;
+  height: 152px;
+  border: 2.5px solid black;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main-section .main .clock .time {
+  font-family: "Share Tech Mono";
+  font-size: 32px;
+  font-weight: 600;
+  color: black;
+}/*# sourceMappingURL=index.css.map */
